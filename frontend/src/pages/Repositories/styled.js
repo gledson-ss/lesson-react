@@ -7,7 +7,9 @@ export const title = styled.h1`
     color: #333;
 `
 
-export const container = styled.div`
+
+
+export const content = styled.div`
     width: 100%;
     max-width: 991px;
     margin: 0 auto;
@@ -37,3 +39,4 @@ export const linkHome = styled(Link)`
     color: #fff;
     text-decoration: none;
 `
+

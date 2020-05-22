@@ -20,7 +20,7 @@ export default function Repositories(){
 
     return(
         <>
-            <st.container>
+            <st.content>
                 <st.title>Repositories</st.title>
                 <st.list>
                     {repositories.map(repository =>{
@@ -31,9 +31,10 @@ export default function Repositories(){
                     
                     }
                 </st.list>
-
                 <st.linkHome to="/">Voltar</st.linkHome>
-            </st.container>
+            </st.content>
+
+            
         </>
     )
 }

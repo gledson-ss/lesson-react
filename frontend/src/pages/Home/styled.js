@@ -1,8 +1,17 @@
 import styled from 'styled-components'
 
-export const container = styled.div`
-    width: 100%;
+export const homeContainer = styled.div`
+    display: flex;
     height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+`
+
+export const content = styled.div`
+    width: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,4 +42,12 @@ export const button = styled.button`
         outline: none;
         box-shadow: none;
     }
+`
+
+export const errorMsg = styled.span`
+    display: block;
+    font-size: 0.65rem;
+    color: red;
+    font-weight: 600;
+    margin-top: 1rem;
 `
